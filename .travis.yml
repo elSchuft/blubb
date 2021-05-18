@@ -5,7 +5,8 @@ python:
 services:
   - docker
 
-
+before_script:
+  -
 
 script:
-  - docker-compose run --rm app sh -c ""
+  -
